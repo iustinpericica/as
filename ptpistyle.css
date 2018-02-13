@@ -1,0 +1,180 @@
+@charset "utf-8";
+.container{
+	
+	margin:auto;
+	overflow:hidden;
+	width: 100%;
+}
+
+header{
+	
+	margin:0;
+	background-color:#1D2731;
+	color:white;
+	padding:15px 0px 0px 0px;
+	border-bottom: #D9B310 solid 3px;
+	min-height: 70px;
+	
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header ul li{
+	float:left;
+	display:inline;
+	padding:10px 5px 0px 5px;
+	transition: width 4s;
+}
+
+header #numetop{
+	float:left;
+	font-size:30px;
+    margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:0px;
+}
+
+.prima{
+	color:#D9B310;
+	font-weight: bold;
+}
+
+.menu{
+	margin-left:90%;
+	font-size:25px;
+	color:red;
+
+	
+}
+#menu {
+	list-style: none;
+	float:right;
+	margin-right: 10%;
+}
+
+#menu ul li{
+	float:right;
+	width:50px;
+	height:30px;
+	color:mediumpurple;
+	cursor: pointer;
+	z-index:9;
+	
+}
+
+#menu ul li:hover{
+	color:#D9B310;
+}
+
+
+
+#menu ul li ul li {
+ padding-top:0px;
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: black;
+ opacity: .7;
+ line-height: 40px;
+ text-align: center;
+
+}
+
+#menu ul li{
+	width:100px;
+	text-align: center;
+	
+}
+
+#menu ul li ul li{
+	display:none;
+}
+
+
+
+#menu ul li:hover ul li{
+	background-color:none;
+	display:block;
+	
+}
+
+#menuc{
+	color:#D9B310;
+	font-size: 30px;
+}
+
+
+#ptpip{
+	margin-left:30%;
+}
+
+
+#ptu{
+	position: absolute;
+	color:white;
+	left:37%;
+	top:195px;
+	font-size: 20px;
+	text-align:center;
+}
+
+#imgbasic{
+	z-index:-1;
+	position: relative;
+}
+
+#ptpi{
+	position: absolute;
+	color:white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	left:20%;
+	top:350px;
+	font-size:40px;
+	opacity: 0.7
+}
+
+#dptpi{
+	
+	position:absolute;
+	color:salmon;
+	font-size:18px;
+	top:590px;
+    margin-left:20%;
+	margin-right:20%;
+	height:500px;
+}
+
+#col1{
+    height: 500px;
+}
+
+#pozagrup{
+	background-image:url(pozagrup.jpg);
+	height:500px;
+}
+
+#slider{
+	height:800px;
+}
+
+#ptpptm{
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size:20px;
+}
+
+#scrispoza1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:20px;
+}

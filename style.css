@@ -1,0 +1,504 @@
+@charset "utf-8";
+
+
+body{
+	margin:0;
+	background-color:whitesmoke;
+	padding:0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:15px;
+	z-index:-2;
+}
+
+
+
+/* global */
+
+
+/* PRELOADER    */
+
+
+.preloader{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/*   HEADER   */
+
+
+
+/*   MENUUU */
+
+
+
+
+#menu {
+	list-style: none;
+	float:right;
+	margin-right: 10%;
+}
+
+#menu ul li{
+	float:right;
+	width:50px;
+	height:30px;
+	color:mediumpurple;
+	cursor: pointer;
+	
+}
+
+#menu ul li:hover{
+	color:#D9B310;
+}
+
+
+
+#menu ul li ul li {
+ padding-top:0px;
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: black;
+ opacity: .7;
+ line-height: 40px;
+ text-align: center;
+
+}
+
+#menu ul li{
+	width:100px;
+	text-align: center;
+	
+}
+
+#menu ul li ul li{
+	
+	display:none;
+}
+
+
+
+#menu ul li:hover ul li{
+	background-color:none;
+	z-index:-1;
+	display:block;
+}
+
+#menuc{
+	color:#D9B310;
+	font-size: 30px;
+}
+
+.container{
+	
+	margin:auto;
+	overflow:hidden;}
+
+header{
+	
+	margin:0;
+	background-color:#1D2731;
+	color:white;
+	padding:15px 0px 0px 0px;
+	border-bottom: #D9B310 solid 3px;
+	min-height: 70px;
+	
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header ul li{
+	float:left;
+	display:inline;
+	padding:10px 5px 0px 5px;
+	
+}
+
+header #numetop{
+	float:left;
+	font-size:30px;
+    margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:0px;
+}
+
+.prima{
+	color:#D9B310;
+	font-weight: bold;
+}
+
+.menu{
+	margin-left:90%;
+	font-size:25px;
+	color:red;
+
+	
+}
+/* poza cu mine copac */
+#poza1{
+	margin:0;
+	padding-bottom:10%;
+	background:url(magnitioiustiniito.jpg) no-repeat ;
+	text-align:right;
+	color:white;
+	font-size: 20px;
+	margin-bottom:0;
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width:auto;
+	
+}
+
+
+
+#poza1 h1{
+	text-align:center;
+	color:white;
+	margin-left:50%;
+	margin-top:10%;
+	font-weight: bold;
+	font-size:50px;
+	border-top:#401551 dashed 1px;
+	border-bottom:#401551 dashed 1px;
+	
+	
+}
+
+
+/* sectiunea ce stiu --dupa-- */
+ 
+#ce{
+	text-align:center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:30px;
+}
+
+div{
+	z-index:1;
+}
+
+section{
+	z-index:2;
+}
+
+#laptop{
+	
+	width: 100%;
+	position:absolute;
+	opacity:0.5;
+	z-index:-1;
+	overflow: hidden;
+	margin-bottom: -50%;
+	
+	
+	
+}
+
+.box{
+	
+	margin-left:3%;
+	width: 45%;
+	float:left;
+	display:inline;
+    opacity:0.7;
+    
+}
+
+.box h3{
+	font-size: 20px;
+	margin-left:38%;
+	opacity:1;
+}
+
+.box img{
+	width: 30%;
+	margin-left:25%;
+	opacity:1;
+}
+
+
+
+.box{
+	background-color:#4E1A61;
+	margin-bottom:1.5%;
+	
+	
+}
+
+.box p{
+	color:white;
+		
+}
+
+.top{
+	margin-right:2%;
+	height:270px;
+	margin-bottom:5%;
+	
+}
+
+#boxjs{
+	float:left;
+	width: 40%;
+	height:350px;
+}
+
+#btnjs{
+	background-color:#D9B310;
+	border-radius:10px;
+	
+	
+}
+
+#imgjs{
+	margin-bottom:3%;
+	display: block;
+	margin-left:32%;
+	
+}
+
+#textjs{
+	margin-top:0;
+	margin-bottom:5%;
+}
+
+#boxhtml{
+	float:right;
+	height: 350px;
+	width:40%;
+	padding-bottom: 2.2%;
+	
+}
+
+#imghtml{
+	margin-left:29%;
+}
+
+#texthtml{
+	margin-top:8.5%;
+}
+
+.jos {
+	margin-right:2%;
+}
+
+#boxcss{
+	padding-bottom: 3.3%;
+	float:left;
+	width: 40%;
+	height:270px;
+	
+}
+
+#boxcss h3{
+	margin-left:40%;
+	margin-bottom:-3%;
+}
+
+#boxcss img{
+	margin-left:30%;
+}
+
+#boxarduino{
+	width:40%;
+	float:right;
+	height:270px;
+	margin-right:1%;
+}
+
+
+#boxcss p {
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#boxarduino p{
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+
+#boxarduino img{
+	margin-left: 33%;
+}
+
+
+
+
+.js{
+    visibility: hidden;
+	line-height: 150%;
+	color:white;
+	margin-left:10%;
+}
+
+.js1{
+	margin-left:10%;
+}
+
+.html{
+	
+	line-height: 150%;
+	color:white;
+	margin-left:10%;
+}
+
+#btnjs{
+	margin-bottom:10%;
+	margin-left:40%;
+	cursor: pointer;
+	font-size:15px;
+}
+
+
+#imgcss{
+	display:block;
+	
+}
+
+#btncss{
+	margin-left:37%;
+	background-color:#0080ff;
+	border:white;
+	border-style: dashed;
+	
+}
+
+#btnarduino{
+	color:white;
+	background:none;
+	border-color:#D9B310;
+	float:right;
+	cursor: pointer;
+}
+
+#btnhtml{
+	cursor: pointer;
+	background: none;
+	width: auto;
+	height: auto;
+	display:block;
+	margin-left:35%;
+	margin-top:5%;
+	size:20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-color:#ffa500;
+	
+}
+
+.boxcss{
+	float:left;
+	overflow: hide;
+	
+}
+
+
+.jos{
+	display: block;
+	
+	height: auto;
+	margin:0;
+	height: 300px;
+	margin-bottom: 0;
+}
+
+
+
+.tt{
+	color:black;
+	text-align:center;
+	float:left;
+	
+}
+
+
+
+
+
+
+
+
+/* CE IMI PLACE SA FAC */
+
+.ce{
+	text-align:center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:30px;
+	margin-top:10px;
+}
+
+
+/* HOBBYYSSSSSSSS */
+
+.hobby{
+	height: 200px;
+}
+
+ul li {
+	list-style-type: none;
+    
+}
+
+.tenisd{
+	display:inline;
+	float:left;
+	width: 40%;
+	margin-right:10%;
+}
+
+.roboticad{
+	
+	display:inline;
+	
+}
+
+
+.tennisd li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	display:block;
+}
+
+.roboticad li{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	display:block;
+	
+}
+
+.tenis{
+	text-align:center;
+}
+
+.robotica{
+	text-align:center;
+	
+}
+
+.scristenis {
+	
+	margin-top:5px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+	
+}
+
+#btnmergila {
+	margin-left:40%;
+	background-color:#EDD113
+}
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "sitecipru",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iustinpericica/site-cipru.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iustinpericica/site-cipru/issues"
+  },
+  "homepage": "https://github.com/iustinpericica/site-cipru#readme"
+}

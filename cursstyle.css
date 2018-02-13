@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+
+
+
+
+body {
+	background-color:whitesmoke;
+	margin:0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+#curs {
+	text-align:center;
+	font-size: 24px;
+	text-shadow:0.5px 0.8px;
+}
+
+
+#menu {
+	list-style: none;
+	float:right;
+	margin-right: 10%;
+}
+
+#menu ul li{
+	float:right;
+	width:50px;
+	height:30px;
+	color:mediumpurple;
+	cursor: pointer;
+	
+}
+
+#menu ul li:hover{
+	color:#D9B310;
+}
+
+
+
+#menu ul li ul li {
+ padding-top:0px;
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: black;
+ opacity: .7;
+ line-height: 40px;
+ text-align: center;
+
+}
+
+#menu ul li{
+	width:100px;
+	text-align: center;
+	
+}
+
+#menu ul li ul li{
+	
+	display:none;
+}
+
+
+
+#menu ul li:hover ul li{
+	background-color:none;
+	z-index:-1;
+	display:block;
+}
+
+#menuc{
+	color:#D9B310;
+	font-size: 30px;
+}
+
+
+h2 {
+	
+}
+
+#first {
+	margin-left:30%;
+}
+
+#second {
+	margin-left:20%;
+}
+
+#third {
+	margin-left:10%;
+}
+
+.imgeu {
+	margin-left:7%;
+}
+
+#imgeu {
+	margin-left:10%;
+}
+
+#poveste {
+margin-left:25%;
+font-size: 30px;
+height:auto;
+	
+}
+
+
+#video{
+	width: 100%;
+	height:auto;
+}
+
+/*   HEADER   */
+
+.container{
+	
+	margin:auto;
+	overflow:hidden;}
+
+header{
+	
+	margin:0;
+	background-color:#1D2731;
+	color:white;
+	padding:15px 0px 0px 0px;
+	border-bottom: #D9B310 solid 3px;
+	min-height: 70px;
+	
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header ul li{
+	float:left;
+	display:inline;
+	padding:10px 5px 0px 5px;
+	
+}
+
+header #numetop{
+	float:left;
+	font-size:30px;
+    margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:0px;
+}
+
+.prima{
+	color:#D9B310;
+	font-weight: bold;
+}
+
+.menu{
+	margin-left:90%;
+	font-size:25px;
+	color:red;
+
+	
+}
+
+#tabel{
+	
+	width: 100%;
+	text-align:center;
+	
+	
+}
+
+#participanti{
+	text-align:center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 32px;
+}
+
+thead{
+	text-align:center;
+}
+
+
+
+th{
+	color: #D9B310;
+	
+	
+}

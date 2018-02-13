@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Formular de parteneriat </title>   
+ 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+       <h2>Contact:</h2>
+          <ul id="contact">
+          	<li>Numar de telefon : 0741198606</li>
+          	<li>Adresa : Str Aviatorilor nr:14 A</li>
+          	<li>Mail: iustinpericica@yahoo.com</li>
+          	<li>Liceu : Colegiul national Roman Voda</li>
+          </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Formular de parteneriat </h1>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                    <span  id="usernameError" class="error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                    <span id="passwordError" class="error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirmPassword">Confirm Password</label>
+                                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password">
+                                    <span  id="confirmPasswordError" class="error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                    <span id="emailError" class="error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phoneNumber">Phone Number</label>
+                                    <input type="text" class="form-control" id="phoneNumber" placeholder="Phone number">
+                                    <span  id="phoneNumberError" class="error"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="dob">Date of birth</label>
+                                    <input type="text" class="form-control" id="dob" placeholder="DD/MM/YYYY">
+                                    <span id="dobError" class="error"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="website">Website</label>
+                                    <input type="text" class="form-control" id="website" placeholder="https://">
+                                    <span  id="websiteError" class="error"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="radio">
+                                        <span class="">Which operating system do you prefer?</span>
+                                        <label>
+                                            <input type="radio" name="os" id="windows" value="windows"/> Windows
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="os" id="macos" value="macos"/> MacOS
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="os" id="linux" value="linux"/> Linux
+                                        </label>
+                                        <span id="osError" class="error"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <span class="">Which languages do you know?</span>
+                                        <label>
+                                            <input type="checkbox" name="language[]" id="cplusplus" value="cplusplus"/> C++
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="language[]" id="java" value="java"/> Java
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="language[]" id="javaScript" value="javaScript"/> JavaScript
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="language[]" id="python" value="python"/> Python
+                                        </label>
+                                        <span id="langError" class="error"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="option">
+                                        <span class="">Skill level</span>
+                                        <select class="form-control" name = "skillLevel[]">
+                                            <option name="default" value="default">Please select one of the options</option>
+                                            <option name="beginner" value="beginner">Beginner</option>
+                                            <option name="intermediate" value="intermediate">Intermediate</option>
+                                            <option name="advanced" value="advanced">Advanced</option>
+                                            <option name="pro" value="pro">Pro</option>
+                                        </select>
+                                        <span id="skillLevelError" class="error"></span>
+                                    </div>
+                                </div>
+                               
+                                <div class="separator"></div>
+                                <button type="submit" class="btn btn-default" id="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </body>
+    <style>
+body {
+    background-color: white;
+    transition: background-color 2s ease-in;
+}
+</style>
+<script>
+window.onload = function() {
+    document.body.style.backgroundColor = '#cfcbd2';
+}
+</script>
+
+</html>
